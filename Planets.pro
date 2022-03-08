@@ -8,7 +8,7 @@ SOURCES += \
         physicsserver.cpp \
         planet.cpp \
         sceneloader.cpp \
-        xml/tinyxml2.cpp
+        tinyxml2/tinyxml2.cpp
 
 LIBS += -lsfml-graphics -lsfml-system -lsfml-window
 
@@ -17,7 +17,7 @@ HEADERS += \
     physicsserver.h \
     planet.h \
     sceneloader.h \
-    xml/tinyxml2.h
+    tinyxml2/tinyxml2.h
 
 RESOURCES += \
     Sprites/Mars.png \

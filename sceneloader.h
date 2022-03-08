@@ -4,7 +4,7 @@
 #include "planet.h"
 #include "physicsserver.h"
 
-#include "xml/tinyxml2.h"
+#include "tinyxml2.h"
 
 #include <vector>
 #include <string>
